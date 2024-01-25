@@ -616,6 +616,11 @@ video {
   margin-right: auto;
 }
 
+.mx-36 {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -667,6 +672,11 @@ video {
 .size-7 {
   width: 1.75rem;
   height: 1.75rem;
+}
+
+.size-1 {
+  width: 0.25rem;
+  height: 0.25rem;
 }
 
 .h-9 {
@@ -1068,6 +1078,13 @@ video {
   color: rgb(245 158 11 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:size-2 {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:text-xl {
     font-size: 1.25rem;
@@ -1108,6 +1125,16 @@ video {
   .lg\:size-\[29rem\] {
     width: 29rem;
     height: 29rem;
+  }
+
+  .lg\:size-1 {
+    width: 0.25rem;
+    height: 0.25rem;
+  }
+
+  .lg\:size-7 {
+    width: 1.75rem;
+    height: 1.75rem;
   }
 
   .lg\:w-1\/2 {
