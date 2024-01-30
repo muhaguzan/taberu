@@ -7,7 +7,11 @@ container: {
   padding: '16px',
 },
 
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins']
+      }
+    },
   },
   plugins: [],
 }
