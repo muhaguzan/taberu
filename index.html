@@ -15,10 +15,29 @@
         html {
             scroll-behavior: smooth;
         }
+
+        ::-webkit-scrollbar {
+        width: 18px;
+        }
+
+        ::-webkit-scrollbar-track {
+        background-color: rgb(251, 232, 209);
+        }
+
+        ::-webkit-scrollbar-thumb {
+        background-color: #d97706;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+        background-color: #b36711a4;
+        }
     </style>
 </head>
 
-<body class="bg-orange-50 scrollbar scrollbar-thumb-amber-600">
+<body class="bg-orange-50">
 
     <!-- nav -->
     <header class="bg-transparent shadow-lg absolute top-0 left-0 w-full flex items-center z-10">

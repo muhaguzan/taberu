@@ -13,6 +13,6 @@ container: {
       }
     },
   },
-  plugins: [require('tailwind-scrollbar')],
+  plugins: [],
 }
 
